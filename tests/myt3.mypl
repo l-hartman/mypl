@@ -1,0 +1,10 @@
+# this program tests modulo and division
+
+var x = 10;
+var y = 2; 
+
+print("modulo: ");
+print(x % y);
+
+print("\ndivision: ");
+print(x / y);

@@ -1,0 +1,19 @@
+var x = "This is a diagnol string";
+
+if get(0, x) == "T" then
+    print("T\n");
+end
+
+var i = 1;
+var y = 0;
+
+while i < length(x) do
+    set y = 0;
+    while y < i do
+        print(" ");
+        set y = y + 1;
+    end
+    print(get(i, x));
+    print("\n");
+    set i = i + 1;
+end

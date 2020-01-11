@@ -1,0 +1,18 @@
+var msg = "This program finds the circumference of a circle\n";
+print(msg);
+
+var msg = "Enter the radius of a circle\n";
+print(msg);
+
+var r = readf();
+
+var msg = "computing . . . \n";
+print(msg);
+
+var msg = "done!\n";
+print(msg);
+
+var c = 2 * 3.1415926 * r;
+var msg = "circumference = " + ftos(c);
+print(msg);
+print("\n");
